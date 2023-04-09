@@ -1,0 +1,30 @@
+header{
+    background-color: grey;
+    height:80px;
+}
+.classCheck > h2
+{
+    background: yellow
+}
+.classCheck > p
+{
+    background-color: black;
+    color :white
+
+}
+h1{
+    background-color: black;;
+    color :honeydew;
+    text-decoration: underline;
+    text-align: c;
+}
+#Practice{
+    margin: 20px  rgb(99, 99, 13);
+    border:10px solid black;
+    padding: 50px solid yellow;
+    content: solid skyblue
+}
+img{
+    float:right;
+    border:20px ;
+}

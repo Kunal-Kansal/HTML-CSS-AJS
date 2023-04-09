@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Semantic Tags</title>
+
+<link rel="stylesheet" href="practiceForm.css" />
+</head>
+<body>
+  
+  <div id="form-container">
+    <h3>Form</h3>
+    <form action="/user-details" method="POST">
+      <input type="hidden" name="form_type" value="user_sinup" />
+      <input type="hidden" name="user_browser_type" value="chrome" />
+      <div class="form-field">
+        <label for="first_name">First Name <sup>*</sup></label>
+        <input type="text" name="fname" id="first_name" placeholder="John" required  />
+      </div>
+      <div class="form-field">
+        <label for="last_name">Last Name <sup>*</sup></label>
+        <input type="text" name="lname" id="last_name" required />
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div class="form-field">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="form-field">
+        <label for="address">Address</label>
+        <textarea name="address" id="address" placeholder="Kolkata"></textarea>
+      </div>
+      <div class="form-field">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="na">Prefer not to say</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="dob">DOB</label>
+        <input type="date" min="2020-10-25" max="2022-10-31" name="dob" id="dob" />
+      </div>
+      <div class="form-field">
+        <label for="birth_time">Time of Birth</label>
+        <input type="time" name="birth_time" id="birth_time" />
+      </div>
+      <div class="form-field">
+        <label for="age">Age</label>
+        <input type="number" min="18" max="99" name="age" id="age" />
+      </div>
+      <div class="form-field">
+        <h4>Please select your hobbies</h4>
+        <div>
+          <div>
+            <input type="checkbox" name="hobbie_cricket" id="hobbie_cricket" />
+            <label for="hobbie_cricket">Cricket</label>
+          </div>
+          <div>
+            <input type="checkbox" name="hobbie_football" id="hobbie_football" />
+            <label for="hobbie_football">Football</label>
+          </div>
+          <div>
+            <input type="checkbox" name="hobbie_music" id="hobbie_music" />
+            <label for="hobbie_music">Music</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-field">
+        <h4>Please select food habit</h4>
+        <div>
+          <div>
+            <input id="radio-vegan" type="radio" name="food_habit" value="vegan" />
+            <label for="radio-vegan">Vegan</label>
+          </div>
+          <div>
+            <input type="radio" id="radio-veg" name="food_habit" value="veg" />
+            <label for="radio-veg">Veg</label>
+          </div>
+          <div>
+            <input type="radio" id="radio-non-veg" name="food_habit" value="non_veg" />
+            <label for="radio-non-veg">Non-veg</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="profile_pic">Choose your profile pic</label>
+        <input type="file" name="profile_pic" id="profile_pic" />
+      </div>
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+  </div>
+    
+    
+  
+
+</body>
+</html>

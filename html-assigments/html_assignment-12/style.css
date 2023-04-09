@@ -1,0 +1,32 @@
+body{
+    padding: 100px 0px 0px 300px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(188, 36, 36);
+}
+th{
+    border : 1px solid black;
+    text-align :left;
+    width: 100px;
+    color:white;
+}
+td{
+    border : 1px solid;
+    text-align :right;
+    width: 100px;
+}
+#row1{
+    background-color:rgb(254, 66, 66);
+    color:white;
+    border-color: black;
+}
+#row2{
+    background-color:rgb(243, 112, 112);
+}
+#row3{
+    background-color:rgb(252, 170, 170);
+}

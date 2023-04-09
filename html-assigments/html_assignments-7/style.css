@@ -1,0 +1,26 @@
+.block1{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.block2{
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.block3{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.block4{
+    width: 50%;
+    height: 300px;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}

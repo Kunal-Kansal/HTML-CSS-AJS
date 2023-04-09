@@ -1,0 +1,29 @@
+th{
+    background-color: rgb(151, 151, 29);
+}
+tr{
+    background-color: yellow;
+}
+/* .parent{
+    background-color: green;
+    color: white;
+}
+.child1{
+    background-color: blue;
+    margin:25%;
+    position:fixed;
+}
+.child2{
+    background-color: violet;   
+}
+.child3{
+    background-color: red;   
+    position:;
+}
+.parent > div{
+    display : inline-block;
+    padding: 20px;
+    border:2px solid black;
+    margin-top: 10px;
+
+} */

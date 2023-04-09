@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+}
+#formContainer{
+    width: 400px;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin:0px auto;
+    padding:20px 30px;
+    box-sizing: border-box;
+}
+#formContainer #formField >label{
+    display: block;
+}

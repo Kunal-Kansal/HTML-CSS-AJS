@@ -1,0 +1,37 @@
+.data{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: ;
+}
+.child1{
+    background-color: blue;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+.child2{
+    background-color: brown;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+.child3{
+    background-color: rgb(0, 144, 0);
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    width:200px;
+    height:200px;
+}
+.child4{
+    background-color: rgb(102, 15, 184);
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    width:200px;
+    height:200px;
+}

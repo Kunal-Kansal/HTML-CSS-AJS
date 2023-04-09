@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html>
+<body id="body">
+    This is a comment node!
+    <h1>Header statement</h1>
+    <script>
+        let nodes = document.body.childNodes;
+        let span = document.createElement('span')
+        for (let i = 0; i < nodes.length; i++) {
+            let h1 = document.createElement('h1');
+            h1.innerText = nodes[i].nodeName;
+            span.append(h1);
+        }
+        document.getElementById('body').append(span)
+    </script>
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a comment node! -->
+
+<h1>The Element Object</h1>
+<h2>The childNodes Property</h2>
+<p>Whitespace between elements are text nodes. Comments are also nodes.</p>
+
+<p>The body element's child nodes are:</p>
+
+<script>
+    let nodes = document.body.childNodes
+    for(let i = 0 ; i<nodes.length ;i++){
+        console.log(nodes[i].nodeName)
+    }
+</script>
+
+</body>
+</html>

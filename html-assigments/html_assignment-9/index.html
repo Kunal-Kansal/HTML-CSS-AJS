@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formContainer">
+        <h1 style="text-align:center">Feedback Form</h1>
+        <form action="/user-details" method="POST">
+            <div id="formField">
+                <label for="first-name">First Name</label>
+                <input type="text" name="firstname" id="first-name" >
+            </div>
+            <div id="formField">
+                <label for="Portfolio">Portfolio</label>
+                <input type="text" name="Portfolio" id="Portfolio" >
+            </div>
+            <div id="formField">
+                <label for="Favcolor">Favourite Color</label>
+                <input type="color" name="Favcolor" id="Favcolor" value="#C0C0C0">
+            </div>
+            <div id="formField">
+                <label for="slider">Slider</label>
+                <input type="range" min="1" max="100" name="slider" id="slider" >
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+              </div>
+        </form>
+    </div>
+</body>
+</html>
